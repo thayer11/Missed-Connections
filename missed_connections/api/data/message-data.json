@@ -1,18 +1,20 @@
-{ 	
+[{ 	
 	"content" : "It was early Tuesday morning and I was spilling my coffee all over the place, being a general mess. You were wearing a black hoody and reading Berryman's Dream Songs, which is one of my favorite books. You said Hi; I said Hi. It was awkward. I had on a red hat. Anyway, I'd love to meet up and talk about poetry or whatever else.", 
-	"location": {
+	"location": [{
 		"name" : "Thump Coffee",
 		"address": "1201 E. 13th Ave, Denver"
-	},
+	}],
 	"user" : [{
+		"email" : "Sandy25@gmail.com",
 		"username": "Sandy 25",
+        "password" : "Mydogiscute",
         "first_name": "Sara",
         "last_name" : "Sandoval",
         "city": "Denver",
         "state" : "Colorado",
         "description": "Software Engineer who loves dogs and live music just like most people in Denver, but not like most people in Denver. I'm actually quite exceptional."
       	}],
-	"reply": {
+	"reply": [{
 		"response": "Wait, did you spill your coffee AND drop your egg sandwich? Haha yeah, that was an awkward exchange of Hellos. We should try again. My number is 303-787-7770",
 		"responder": [{
 			"username": "Charlie Horse",
@@ -22,7 +24,6 @@
  			"state" : "Colorado",
  			"description": "I'm just your average awesome, amazing, tall drink of water looking for friends who climb."
 				}],
-      	},
-}
-      
-      
+      	}],
+}]
+ 

@@ -1,4 +1,4 @@
-var messageData = require('../data/message-data.json');
+// var messageData = require('../data/message-data.json');
 
 module.exports.messagesGetAll = function(req, res) {
 
@@ -17,7 +17,7 @@ module.exports.messagesGetAll = function(req, res) {
     count = parseInt(req.query.count, 10);
   }
 
-  returnData = messageData.slice(offset,offset+count);
+  // returnData = messageData.slice(offset,offset+count);
 
   res
     .status(200)
