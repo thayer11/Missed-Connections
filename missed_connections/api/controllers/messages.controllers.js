@@ -1,5 +1,3 @@
-// var messageData = require('../data/message-data.json');
-
 module.exports.messagesGetAll = function(req, res) {
 
   console.log('GET the messages');

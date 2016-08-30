@@ -1,0 +1,42 @@
+<div class="col-md-6 col-md-offset-3" ng-controller="UserController">
+  <form ng-submit="createNewUser()" class="">
+    <div>
+      <div class="form-group">
+      	<label for="email" class="">Email: </label>
+      	<input type="text" name="email" id="emailRegister" placeholder="example@example.com" class="" ng-model="newUser.email">
+      </div>
+      <div class="form-group">
+        <label for="password" class="">Password:</label>
+        <input type="password" id="passwordRegister" placeholder="My Password" class="" ng-model="newUser.password">
+      </div>
+      <div class="form-group">
+        <label for="username" class="">Username:</label>
+        <input type="text" id="usernameRegister" placeholder="Enter First Name" class="" ng-model="newUser.username">
+      </div>
+      <div class="form-group">
+        <label for="text" class="">First Name:</label>
+        <input type="text" id="firstnameRegister" placeholder="Enter Last Name" class="" ng-model="newUser.first_name">
+      </div>
+      <div class="form-group">
+        <label for="text" class="">Last Name:</label>
+        <input type="text" id="lastnameRegister" placeholder="Enter Last Name" class="" ng-model="newUser.last_name">
+      </div>
+      <div class="form-group">
+        <label for="text" class="">City:</label>
+        <input type="text" id="cityRegister" placeholder="What city do you live in?" class="" ng-model="newUser.city">
+      </div>
+      <div class="form-group">
+        <label for="text" class="">State:</label>
+        <input type="text" id="stateRegister" placeholder="What state do you live in?" class="" ng-model="newUser.state">
+      </div>
+      <div class="form-group">
+        <label for="personal_bio" class="">Personal Bio: </label>
+        <textarea name="personal_bio" id="personal_bioRegister" placeholder="My Personal Bio is...." class="" ng-model="newUser.personal_bio"></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="POST!" class="btn">
+      </div>
+    </div>
+  </form>
+  <p>{{errorMessage}}</p>
+</div>
